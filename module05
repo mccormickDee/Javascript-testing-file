@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title> Module 5 </title>
+  </head>
+  <body>
+    <p id="demo"></p>
+  <script>
+let myDog = new Object();
+myDog.name = "Clifford";
+myDog.breed = "Labrador Retriever";
+myDog.color = "Red";
+myDog.show = "Clifford the Big Red Dog";
+myDog.sound = "I am intimidating because of my size";
+
+
+document.getElementById("demo").innerHTML = "My name is " + myDog.name + " from the show called " + myDog.show + ". " +  myDog.sound + ", I also have bright " + myDog.color + " fur!!"  ;
+
+    </script>
+
+    <br>
+
+
+</body>
+</html>
