@@ -6,17 +6,18 @@
   <title> Module 5 </title>
   </head>
   <body>
+    <h1> My Favoite Dog </h1>
     <p id="demo"></p>
   <script>
-let myDog = new Object();
-myDog.name = "Clifford";
-myDog.breed = "Labrador Retriever";
-myDog.color = "Red";
-myDog.show = "Clifford the Big Red Dog";
-myDog.sound = "I am intimidating because of my size";
+let dog = new Object();
+dog.name = "Clifford";
+dog.breed = "Labrador Retriever";
+dog.color = "Red";
+dog.show = "Clifford the Big Red Dog";
+dog.sound = "I am intimidating because of my size";
 
-
-document.getElementById("demo").innerHTML = "My name is " + myDog.name + " from the show called " + myDog.show + ". " +  myDog.sound + ", I also have bright " + myDog.color + " fur!!"  ;
+window.alert("My dog is " + dog.name);
+document.getElementById("demo").innerHTML = "My name is " + dog.name + " from the show called " + dog.show + ". " +  dog.sound + ", I also have bright " + dog.color + " fur!!"  ;
 
     </script>
 
